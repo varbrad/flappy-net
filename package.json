@@ -1,0 +1,17 @@
+{
+  "name": "flappy-net",
+  "version": "1.0.0",
+  "description": "A neuroevolution demo of AI agents playing Flappy Bird.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varbrad/flappy-net.git"
+  },
+  "author": "Brad Davies",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/varbrad/flappy-net/issues"
+  },
+  "homepage": "https://github.com/varbrad/flappy-net#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
