@@ -2,6 +2,9 @@
   "name": "flappy-net",
   "version": "1.0.0",
   "description": "A neuroevolution demo of AI agents playing Flappy Bird.",
+  "scripts": {
+    "gh-pages": "parcel build ./src/index.html -d ./docs"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/varbrad/flappy-net.git"
