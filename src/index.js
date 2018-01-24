@@ -45,6 +45,7 @@ function update() {
   if (walls.length > 1 && walls[0].x < -WALL_SIZE * 0.5) {
     let w = walls.shift();
     w.x = walls[walls.length - 1].x + WALL_SPACING;
+    w.y = Math.random() * (HEIGHT * 0.7) + HEIGHT * 0.15;
     walls.push(w);
   }
 
